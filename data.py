@@ -103,16 +103,14 @@ l1 = title1
 l2 = antigen_Gene
 l3 = reactivity
 l4 = host
-# l5 = free_entry_records
+
 
 
 s1 = pd.Series(l1, name='Title')
 s2 = pd.Series(l2, name='Antigen Gene')
 s3 = pd.Series(l3, name='Reactivity')
 s4 = pd.Series(l4, name='Host')
-# s5 = pd.Series(l5, name='')
 
-# s13 = pd.Series(l13, name='State')
 
 
 df = pd.concat([s1, s2, s3, s4], axis=1)
